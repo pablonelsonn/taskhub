@@ -1,0 +1,82 @@
+body {
+    position: relative;
+    background-color: rgb(15, 15, 15);
+    margin: 0;
+    padding: 0;
+    background-image: url('imagens/dot1.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center; /* Centraliza no eixo horizontal */
+    align-items: center; /* Centraliza no eixo vertical */
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.tecText{
+    color: white;
+    top: 0px; /* Ajuste conforme necessário */
+    left: 15;
+    margin-top: 10px; /* Adiciona uma margem superior de 50 pixels para empurrar a imagem para baixo */
+}
+
+.conteudo {
+    padding: 20px;
+    margin-top: 50px; /* Ajusta o conteúdo para não ser coberto pelos botões */
+}
+
+.container {
+    width: 90%; /* Definindo a largura do container */
+    margin: 30px auto; /* Centralizando o container na página */
+    color: white;
+}
+
+.texto-pequeno {
+    font-size: 15px; /* Define o tamanho de fonte para elementos com a classe "texto-pequeno" como 10 pixels */
+}
+
+.texto-pequeno-container{
+    font-size: 15px; /* Define o tamanho de fonte para elementos com a classe "texto-pequeno" como 10 pixels */
+    width: 90%; /* Definindo a largura do container */
+    margin: 30px auto; /* Centralizando o container na página */
+}
+
+.tecText{
+    text-align:justify;
+    width: 90%; /* Definindo a largura do container */
+    margin: 30px auto; /* Centralizando o container na página */
+    font-weight: bold; /* Aplica o negrito */
+}
+
+.t{
+    text-align:justify;
+    color: white; /* Cor branca */ 
+}
+
+#imagem {
+    position: absolute;
+    top: 0;
+    left: 15;
+    display: block;
+    width: 300%;
+    margin: 0 auto;
+}
+
+.container p {
+    position: relative;
+    font-weight: bold; /* Aplica o negrito */
+    color: white; /* Cor branca */
+    font-family: Arial, sans-serif; /* Definindo uma fonte */
+}
+
+.botoes-direita {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.botoes-direita button {
+    margin-left: 10px;
+}

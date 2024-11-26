@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: rgb(15, 15, 15);
+    margin: 0;
+    padding: 0;
+    background-image: url('imagens/dot1.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Tornar o corpo do documento do tamanho da tela */
+}
+
+.tecText{
+    color: white;
+}
+
+.conteudo {
+    padding: 20px;
+    margin-top: 50px; /* Ajusta o conteúdo para não ser coberto pelos botões */
+}
+
+.logo {
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    width: auto;
+}
+
+.botoes-direita {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.botoes-direita button {
+    margin-left: 10px;
+}
